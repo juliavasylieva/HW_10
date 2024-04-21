@@ -1,0 +1,32 @@
+    1  pwd
+    2  git clone https://github.com/juliavasylieva/HW_10.git
+    3  ls
+    4  cd HW_10/
+    5  pwd
+    6  touch text_ignore.txt
+    7  ls -l
+    8  ls -ls
+    9  git status
+   10  git add .
+   11  git commit -m "Перший коміт"
+   12  touch main_test.txt
+   13  git add .
+   14  git commit -m "add main_test.txt"
+   15  git checkout develop
+   16  git checkout -b develop
+   17  git status
+   18  ls -ls
+   19  touch develop_test.txt
+   20  git add .
+   21  git commit -m "add file develop_test.txt"
+   22  vim develop_test.txt
+   23  git status
+   24  git add .
+   25  git status
+   26  git commit -m "edited develop_test.txt"
+   27  git status
+   28  git checkout main
+   29  git status
+   30  git merge develop
+   31  git log
+   32  history > command_list.csv
